@@ -125,47 +125,17 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
     <script> /* In the var immediately below, copy-paste your Tracery/CBDQ JSON between the {} brackets */
     var obj = {
       
-	{
     "origin": [
         "#crop# #affect# more #season# by #amount##punctuation#",
         "#season#, #crop# #affect# the most by #amount##punctuation#"
     ],
-    "crop": [
-        "Basil",
-        "Onion",
-        "Broccoli",
-        "Parsley",
-         "Kale"
-    ],
-    "affect": [
-        "grows",
-        "dies",
-        "sells",
-        "stagnates",
-        "produces"
-    ],
-    "season": [
-        "all year",
-        "in Summer",
-        "in Winter",
-        "in Fall",
-        "in Spring"
-    ],
-    "punctuation": [
-        "!",
-        "?",
-        "."
-                
-    ],
-    "amount": [
-    "-71%",
-    "-50%",
-    "50%",
-    "49",
-    "23"
-   ]
-
+    "crop": [ "Basil", "Onion", "Broccoli", "Parsley", "Kale" ],
+    "affect": [ "grows", "dies", "sells", "stagnates", "produces" ],
+    "season": [ "all year",  "in Summer",  "in Winter", "in Fall", "in Spring"  ],
+    "punctuation": [ "!", "?",  "."  ],  
+    "amount": [ "-71%", "-50%", "50%", "49", "23" ]  
 }
+
 function generateString(rule) {
   return expandRule(rule);
 }
